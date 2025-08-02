@@ -1,3 +1,11 @@
+package ru.yandex.course;
+
+import ru.yandex.course.enumeration.TaskStatus;
+import ru.yandex.course.model.Epic;
+import ru.yandex.course.model.Subtask;
+import ru.yandex.course.model.Task;
+import ru.yandex.course.service.TaskManager;
+
 public class Main {
     public static void main(String[] args) {
         TaskManager manager = new TaskManager();

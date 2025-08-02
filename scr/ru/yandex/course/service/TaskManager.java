@@ -1,3 +1,10 @@
+package ru.yandex.course.service;
+
+import ru.yandex.course.enumeration.TaskStatus;
+import ru.yandex.course.model.Epic;
+import ru.yandex.course.model.Subtask;
+import ru.yandex.course.model.Task;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
