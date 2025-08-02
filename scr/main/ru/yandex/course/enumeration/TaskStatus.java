@@ -1,4 +1,4 @@
-package ru.yandex.course.enumeration;
+package main.ru.yandex.course.enumeration;
 
 public enum TaskStatus {
     NEW,

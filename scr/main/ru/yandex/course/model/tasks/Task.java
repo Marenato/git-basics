@@ -1,6 +1,6 @@
-package ru.yandex.course.model;
+package main.ru.yandex.course.model.tasks;
 
-import ru.yandex.course.enumeration.TaskStatus;
+import main.ru.yandex.course.enumeration.TaskStatus;
 
 import java.util.Objects;
 
@@ -63,7 +63,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "ru.yandex.course.model.Task{" +
+        return "main.ru.yandex.course.model.tasks.Task{" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", status=" + status +

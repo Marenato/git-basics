@@ -1,14 +1,17 @@
-package ru.yandex.course;
+package main.ru.yandex.course;
 
-import ru.yandex.course.enumeration.TaskStatus;
-import ru.yandex.course.model.Epic;
-import ru.yandex.course.model.Subtask;
-import ru.yandex.course.model.Task;
-import ru.yandex.course.service.TaskManager;
+import main.ru.yandex.course.enumeration.TaskStatus;
+import main.ru.yandex.course.model.TaskManager;
+import main.ru.yandex.course.model.tasks.Epic;
+import main.ru.yandex.course.model.tasks.Subtask;
+import main.ru.yandex.course.model.tasks.Task;
+import main.ru.yandex.course.model.InMemoryTaskManager;
+import main.ru.yandex.course.service.Managers;
 
 public class Main {
     public static void main(String[] args) {
-        TaskManager manager = new TaskManager();
+        Managers managers = new Managers();
+        TaskManager manager = managers.getDefault();
 
         Task task1 = new Task("Купить молоко", "2 литра");
         Task task2 = new Task("Выгулять собаку", "В парке");

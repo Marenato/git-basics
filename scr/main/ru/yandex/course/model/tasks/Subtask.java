@@ -1,4 +1,4 @@
-package ru.yandex.course.model;
+package main.ru.yandex.course.model.tasks;
 
 public class Subtask extends Task{
     private final int epicId;
@@ -14,7 +14,7 @@ public class Subtask extends Task{
 
     @Override
     public String toString() {
-        return "ru.yandex.course.model.Subtask{" +
+        return "main.ru.yandex.course.model.tasks.Subtask{" +
                 "epicId=" + epicId +
                 "} " + super.toString();
     }

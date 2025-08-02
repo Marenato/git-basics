@@ -1,4 +1,4 @@
-package ru.yandex.course.model;
+package main.ru.yandex.course.model.tasks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +29,7 @@ public class Epic extends Task {
 
     @Override
     public String toString() {
-        return "ru.yandex.course.model.Epic{" +
+        return "main.ru.yandex.course.model.tasks.Epic{" +
                 "subtaskIds=" + subtaskIds +
                 "} " + super.toString();
     }
